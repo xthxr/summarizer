@@ -9,7 +9,7 @@ export default function Home() {
   const handleSummarize = async () => {
     setLoading(true);
     try {
-      const res = await fetch("https://your-backend-url.onrender.com/api/summarize", {
+      const res = await fetch("https://summarizer-calg.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ url }),
