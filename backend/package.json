@@ -1,1 +1,23 @@
-
+{
+  "name": "webpage-summarizer-backend",
+  "version": "1.0.0",
+  "description": "Backend for DeepSeek-powered AI Webpage Summarizer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["deepseek", "summarizer", "webpage", "express"],
+  "author": "Athar Akram",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
